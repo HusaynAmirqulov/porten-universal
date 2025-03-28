@@ -27,6 +27,18 @@ header {
   color: rgba(150, 150, 150, 1);
 }
 
+#hamburger {
+  color: white;
+  font-size: 25px;
+  display: none;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .nav1 {
   padding: 15px 0;
   display: flex;
@@ -521,6 +533,20 @@ footer {
   .nav-btns {
     margin-top: 15px;
   }
+  .nav-brand {
+    width: 100%;
+    padding: 20px 0;
+  }
+  #hamburger {
+    display: block !important;
+  }
+  .nav2-desc {
+    display: none;
+  }
+}
+
+.active {
+  display: flex;
 }
 
 @media (max-width: 580px) {

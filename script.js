@@ -14,3 +14,12 @@ function toggleBacktop() {
     backtop.classList.remove("backtop-show");
   }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const menuToggle = document.getElementById("hamburger");
+  const navMenu = document.querySelector(".nav2-desc");
+
+  menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+  });
+});
